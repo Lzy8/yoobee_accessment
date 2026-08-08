@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-
+# define a class to represent student information
 class StudentInfo:
     def __init__(self, name: str, age: int, student_id: str, address: str = None):
         self.name = name
@@ -17,7 +17,7 @@ class StudentInfo:
         if self.address:
             print(f"Address: {self.address}")
 
-
+# load students from json file
 def load_students_from_json(file_path: str = None):
     if file_path is None:
         file_path = Path(__file__).with_name("studentsList.json")
@@ -27,7 +27,7 @@ def load_students_from_json(file_path: str = None):
 
     return [StudentInfo(**student_data) for student_data in raw_students]
 
-
+# display students sorted by age
 def display_students(students=None):
     if students is None:
         students = load_students_from_json()
