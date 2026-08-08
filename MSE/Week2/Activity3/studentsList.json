@@ -1,0 +1,52 @@
+[{
+    "age": 20,
+    "name": "John Doe",
+    "student_id": "123456",
+    "address": "123 Main St, Anytown, USA"
+},{
+    "age": 22,
+    "name": "Jane Smith",
+    "student_id": "789012",
+    "address": "456 Elm St, Othertown, USA"
+},
+{
+    "age": 21,
+    "name": "Alice Johnson",
+    "student_id": "345678",
+    "address": "789 Oak St, Sometown, USA"
+},{
+    "age": 23,
+    "name": "Bob Brown",
+    "student_id": "901234",
+    "address": "321 Pine St, Anycity, USA"
+}, {
+    "age": 19,
+    "name": "Charlie Davis",
+    "student_id": "567890",
+    "address": "654 Maple St, Othercity, USA"
+}, {
+    "age": 24,
+    "name": "Diana Evans",
+    "student_id": "234567",
+    "address": "987 Cedar St, Somecity, USA"
+}, {
+    "age": 20,
+    "name": "Ethan Foster",
+    "student_id": "890123",
+    "address": "135 Birch St, Anothertown, USA"
+}, {
+    "age": 22,
+    "name": "Fiona Green",
+    "student_id": "456789",
+    "address": "246 Spruce St, Yetanothertown, USA"
+}, {
+    "age": 21,
+    "name": "George Harris",
+    "student_id": "678901",
+    "address": "357 Willow St, Newtown, USA"
+}, {
+    "age": 23,
+    "name": "Hannah Ingram",
+    "student_id": "012345",
+    "address": "468 Aspen St, Oldtown, USA"
+}]
