@@ -1,4 +1,4 @@
-import optimaztion
+import MSE.Week2.Activity2.optimaztion as optimaztion
 class HumanMeasurements:
     def __init__(self, height, weight):
         self.height = height
